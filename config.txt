@@ -1,0 +1,23 @@
+# Game Config
+
+Window  1080 620
+
+Font ../assets/arial.ttf
+
+# Player Config
+#      SR CR  S   AS     F(r,g,b), O(r,g,b),  OT,  Vertices
+Player 32 32 800  300     5 5 5    255 0 0    4    8
+
+
+# Enemy config
+#     SR CR Smin Smax   O(r,g,b),  OT, Vmin  Vmax   L    SI
+Enemy 32 32  200  500     0 0 0     2   3      8    3    3
+
+
+# Bullet config
+#      SR CR  S    F(r,g,b),     O(r,g,b),    OT,   V   L
+Bullet 10 10  900  255 255 255   255 255 255   2    20  1
+
+# Special Weapon config
+#      	  SR   CR   S     F(r,g,b),   O(r,g,b),   OT,  V   L
+SpecialWeapon 250 250  800    255 215 0   255 0 0   	8    40  1
